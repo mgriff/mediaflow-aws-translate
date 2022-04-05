@@ -1,0 +1,21 @@
+{
+    "name": "replaced-by-user-input",
+    "description": "replaced-by-user-input",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "@aws-sdk/client-translate": "^3.46.0",
+        "axios": "^0.24.0",
+        "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+        "dotenv": "^11.0.0",
+        "jest": "^26.6.3"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "jest": {
+        "transform": {}
+    }
+}
