@@ -1,0 +1,46 @@
+{
+  "name": "AWS Translate",
+  "description": "Translates source text",
+  "icon_url": "",
+  "documentation_url": "",
+  "function_data": {
+    "role_arn": "<<IAM ROLE ARN>>",
+    "aws_lambda_function_name": "<<AWS LAMBDA NAME>>",
+    "invocation_type": "Event"
+  },
+  "external_id": "<<SET BY MEDIAFLOWS CLI>>",
+  "form_fields": [
+    {
+      "value": "en",
+      "key": "sourceLanguage",
+      "label": "Set source language",
+      "description": "The language code of the source text"
+    },
+    {
+      "value": "Table of breakfast food, including savoury and sweet plates",
+      "key": "sourceText",
+      "label": "Set text to be translated",
+      "description": "The source text to be translated"
+    },
+    {
+      "value": "es,he",
+      "key": "outputLanguages",
+      "label": "Set output languages",
+      "description": "Languages to translate the source text (Comma seperated)"
+    },
+    {
+      "value": "{}",
+      "key": "dynamic_template_data",
+      "label": "Add Extra Data",
+      "description": "Extra Data to be included in the response",
+      "type": "CODE",
+      "options": {
+        "height": "150px",
+        "theme": "monokai",
+        "showGutter": false,
+        "width": "100%",
+        "mode": "json"
+      }
+    }
+  ]
+}
