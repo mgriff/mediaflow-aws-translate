@@ -52,7 +52,7 @@ To test changes run `npm test`, when running the tests the `translate:TranslateT
 To deploy the changes run `sam build` and then run `sam deploy --guided` to configure where the application should be deployed. The SAM CLI tool needs to have the [correct permissions](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-permissions.html) to deploy.
 
 ## Resources
-- Blog post
+- [Blog post](https://cloudinary.com/blog/automating-translations-of-asset-metadata)
 
 ## License
 Released under the MIT license.
